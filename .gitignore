@@ -1,0 +1,31 @@
+# Pliki cache i logi
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.swp
+*.bak
+
+# Środowisko wirtualne
+venv/
+.env/
+
+# Pliki testowe
+coverage/
+pytest_cache/
+
+# Pliki Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Konfiguracje IDE
+.idea/
+.vscode/
+
+# Pliki build i dystrybucji
+build/
+dist/
+*.egg-info/
